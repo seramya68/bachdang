@@ -120,7 +120,7 @@ function preload() {
 function create() {
   const bg = this.add.image(W / 2, H / 2, "bg").setDisplaySize(W, H).setTint(0x444444);
   
-  let startBtn = this.add.text(W/2, H/2 - 60, "BẤM ĐỂ KHAI HỎA!", { 
+  let startBtn = this.add.text(W/2, H/2 - 60, "BẤM ĐỂ VÀO TRẬN!", { 
     fontFamily: '"Playfair Display", serif', fontSize: "40px", color: "#ffd700", fontStyle: "bold", 
     backgroundColor: "#550000", padding: {x: 20, y: 10}
   }).setOrigin(0.5).setInteractive({ useHandCursor: true });
@@ -389,4 +389,5 @@ function showFinalVictory(scene) {
         fontFamily: '"Playfair Display", serif', fontSize: "60px", color: "#ffd700", fontStyle: "bold",
       }).setOrigin(0.5).setDepth(4001);
   }
+
 }
